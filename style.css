@@ -1,0 +1,206 @@
+.background {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    pointer-events: none;
+    background: linear-gradient(45deg, #f3ec78, #af4261, #00A0B0);
+    background-size: 600% 600%;
+    animation: gradientBG 20s ease infinite;
+  }
+
+  @keyframes gradientBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+ .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+ }
+ .second{
+    font-weight: 700;
+    font-size: 5rem;
+    color: rgb(6, 32, 54);
+    font-family: "Playfair Display", serif;
+text-align: center;
+    margin-bottom: 0;
+    
+
+ }
+ 
+ .third{
+    font-weight: 800;
+    font-size: xx-large;
+    color: rgba(4, 40, 71, 0.801);
+    text-align: center;
+    margin-top: 2px;
+ }
+ img{
+    /* object-fit: cover; */
+    height: 300px;
+    width: 200px;
+    border-radius: 100%;
+ }
+ .hero{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+ }
+ .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+  p{
+    text-align: left;
+    font-weight: 500;
+    font-size: x-large;
+ }
+ span{
+color: blue;
+ }
+
+ .skill-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 15%;
+ }
+ .skill-content h2{
+    color: #00A0B0;
+    margin-left: 20px;
+ }
+ .skill-content p{
+    color: gray;
+    text-align: left;
+    margin-left: 20px;
+ }
+
+ .skill{
+    display: flex;
+justify-content: center;
+margin-bottom: 50px;
+ }
+
+ .skill h1{
+    color: #00A0B0;
+ }
+ 
+  .skill-content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 80px;
+ }
+ .skill-content2 h2{
+    color: #00A0B0;
+    margin-left: 20px;
+ }
+ .skill-content2 p{
+    color: gray;
+    text-align: left;
+    margin-left: 20px;
+ }
+ .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+ }
+ .contact h1{
+    color: #00A0B0;
+ }
+ .contact h2{
+    color: #00A0B0;
+ }
+ .contact p{
+    color: gray;
+ }
+.contact button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: #00A0B0;
+    border: none;
+    font-size: larger;
+}
+
+.footer{
+    background-color: #00A0B0;
+    /* position: fixed; */
+    margin-top: 100px;
+    height: 300px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: beige;
+ }
+
+
+ @media screen and (max-width: 480px) {
+    .body{
+        width: 100%;
+    }
+
+    .background{
+        width: 100%;
+    }
+
+
+   .skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vh;
+   }
+   .skill-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+   .skill-content2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+   .contact{
+    display: contents;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+   }
+   .footer{
+    width: 100%;
+   }
+  }
